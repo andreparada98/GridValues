@@ -1,0 +1,46 @@
+*{
+    background: grey;
+}
+
+.top-part{
+    background: white;
+    width: 70%;
+    border-radius: 0.25rem;
+}
+
+    .top-part h2{
+        background: white;
+        color: limegreen;
+    }
+    .top-part h1{
+        background: white;
+        color: lightseagreen;
+    }
+    .top-part p{
+        background: white;
+        color: black;
+    }
+
+    .left-part{
+    background: turquoise;
+    color: white;
+    }
+    .left-part h1{
+        background: turquoise;
+    }
+    .left-part h2{
+        background: turquoise;
+    }
+    .left-part p{
+        background: turquoise;
+
+    }
+    .left-part a{
+        background: yellowgreen;
+    }
+    a:hover{
+        opacity: 0.7;
+    }
+    .container{
+        display: flex;
+    }
