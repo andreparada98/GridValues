@@ -1,46 +1,54 @@
 *{
-    background: grey;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background: rgb(214, 236, 239);
+    border-radius: 0.5rem;
+    padding: 1rem 0 0 2rem;
+    width: 50%;
+
 }
 
-.top-part{
-    background: white;
-    width: 70%;
-    border-radius: 0.25rem;
+.top h1{
+    color: royalblue;
+
 }
 
-    .top-part h2{
-        background: white;
-        color: limegreen;
-    }
-    .top-part h1{
-        background: white;
-        color: lightseagreen;
-    }
-    .top-part p{
-        background: white;
-        color: black;
-    }
+.top h2{
+    color: seagreen;
+}
 
-    .left-part{
-    background: turquoise;
+.left{
+    background: brown;
     color: white;
-    }
-    .left-part h1{
-        background: turquoise;
-    }
-    .left-part h2{
-        background: turquoise;
-    }
-    .left-part p{
-        background: turquoise;
+    padding: 1rem 0 1rem 2rem;
+    width: 25%;
+}
 
-    }
-    .left-part a{
-        background: yellowgreen;
-    }
-    a:hover{
-        opacity: 0.7;
-    }
-    .container{
-        display: flex;
-    }
+.left h3{
+    background: green;
+    border-radius: 2rem;
+    text-align: center;
+    width: 70%;
+    height: 2rem;
+    box-shadow: 0.8px 0.8px;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+}
+a:hover{
+    opacity: 0.8;
+
+}
+
+#bottom{
+    display: flex;
+}
+.right{
+    background: blue;
+    padding:  1rem 0 1rem 2rem;
+    width: 25%;
+}
