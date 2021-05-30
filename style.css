@@ -46,6 +46,7 @@
 }
 .left h4{
 background: royalblue;
+flex-direction: row;
 }
 
 
@@ -86,6 +87,7 @@ a:hover{
 .right p{
     margin-top: 1rem;
     background: rgb(85, 120, 223);
+
 }
 .right h2{
     background: rgb(85, 120, 223);
