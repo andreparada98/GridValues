@@ -1,43 +1,72 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
+    background: rgb(214, 236, 239);
 }
 .top{
-    background: rgb(214, 236, 239);
-    border-radius: 0.5rem;
+    margin-top: 2rem;
+    background: white;
+
     padding: 1rem 0 0 2rem;
-    width: 50%;
+    width: 52.5%;
+    margin: 0 auto;
 
 }
 
 .top h1{
     color: royalblue;
+    background: white;
 
 }
 
 .top h2{
     color: seagreen;
+    margin-top: 1rem;
+    background: white;
 }
 
+.top p{
+    margin-top: 1rem;
+    background: white;
+}
 .left{
-    background: brown;
+    background: royalblue;
     color: white;
-    padding: 1rem 0 1rem 2rem;
+    padding: 2rem 0 1rem 2rem;
     width: 25%;
 }
 
+.left h2{
+    background: royalblue;
+}
+.left h1{
+    margin-top: 1rem;
+    background: royalblue;
+    display: flex;
+}
+.left h4{
+background: royalblue;
+}
+
+
 .left h3{
-    background: green;
-    border-radius: 2rem;
+    background: rgb(20, 248, 20);
+    border-radius: 0.25rem;
     text-align: center;
     width: 70%;
     height: 2rem;
     box-shadow: 0.8px 0.8px;
+    margin: 0 auto;
+    margin-top:1rem;
+}
+.left p{
+    background: royalblue;
 }
 .left a{
     color: white;
     text-decoration: none;
     text-align: center; 
+    background: rgb(20, 248, 20);
 }
 a:hover{
     opacity: 0.8;
@@ -46,9 +75,18 @@ a:hover{
 
 #bottom{
     display: flex;
+    justify-content: center;
 }
 .right{
-    background: blue;
+    background: rgb(85, 120, 223);
     padding:  1rem 0 1rem 2rem;
     width: 25%;
+    color: white;
+}
+.right p{
+    margin-top: 1rem;
+    background: rgb(85, 120, 223);
+}
+.right h2{
+    background: rgb(85, 120, 223);
 }
