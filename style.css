@@ -92,3 +92,12 @@ a:hover{
 .right h2{
     background: rgb(85, 120, 223);
 }
+
+.otherFont{
+    font-size: 1rem;
+    background: royalblue;
+    margin-left: 10px;
+}
+.body{
+    margin-top: 100px;
+}
